@@ -136,11 +136,17 @@ justify-content: space-evenly;
 /*hero-section*/
 .hero-section{
     background-image: url("hero_image.jpg");
-    height:350px;
+    height:380px;
     background-size: cover;
     display:flex;
     justify-content: center;
     align-items:flex-end;
+}
+.hero-image{
+    height:450px;
+    position:absolute;
+    top:6.2em;
+    
 }
 .hero-message{
     background-color:white;
@@ -150,7 +156,8 @@ justify-content: space-evenly;
     justify-content: center;
     align-items:center;
     font-size:0.85rem;
-    bottom:25px;
+    bottom:8rem;
+    left:5rem;
     width:90%;
     position:relative;
     margin-bottom:25px;
@@ -174,6 +181,7 @@ justify-content: space-evenly;
     background-color:white;
     padding:20px 0px 15px;
     margin-top:15px;
+    box-shadow: rgba(0,0,0,0.5);
 }
 .box-image{
     height:300px;
